@@ -13,7 +13,7 @@ function App() {
         height: "100vh",
       }}
     >
-      <img src={logo} height={150}></img>
+      <img src={logo} height={150} alt="Logo"></img>
       <h1>SUNN</h1>
       <a href="https://play.google.com/store/apps/details?id=de.rki.covpass.app">
         <svg viewBox="0 0 98 29" height={90} xmlns="http://www.w3.org/2000/svg">
