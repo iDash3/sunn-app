@@ -1,6 +1,6 @@
 import logo from "./sunn-logo.png";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import PrivacyPolicy from "./PrivacyPolicy";
 
@@ -246,6 +246,7 @@ function App() {
                   </g>
                 </svg>
               </a>
+              <Link to="/privacy">Privacy Policy</Link>
             </div>
           }
         ></Route>
