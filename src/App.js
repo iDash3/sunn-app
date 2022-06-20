@@ -33,8 +33,10 @@ function App() {
               ></img>
               <div
                 style={{
-                  flex: "row",
-                  justifyContent: "space-between",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
                   padding: "20px",
                 }}
               >
