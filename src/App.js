@@ -42,6 +42,20 @@ function App() {
               >
                 <AndroidButton />
                 <AppleButton />
+                <a
+                  style={{
+                    // color: "#E65100",
+                    textDecoration: "none",
+                    backgroundColor: "#FF9800",
+                    margin: "5px",
+                    padding: "10px 20px",
+                    marginTop: "12px",
+                    borderRadius: "10px",
+                  }}
+                  href="https://www.figma.com/proto/kxPkjlnZ4teBRsdpKsTfHa/UntitledInternational?node-id=222%3A729&scaling=scale-down&page-id=0%3A1&starting-point-node-id=222%3A729"
+                >
+                  Use app simulator
+                </a>
               </div>
               <Link to="/privacy">Privacy Policy</Link>
             </div>
