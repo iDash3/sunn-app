@@ -10,9 +10,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/privacy" element={<PrivacyPolicy />}></Route>
         <Route
-          path="*"
+          path="/"
           element={
             <div
               style={{
@@ -61,6 +60,7 @@ function App() {
             </div>
           }
         ></Route>
+        <Route path="*" element={<PrivacyPolicy />}></Route>
       </Routes>
     </Router>
   );
