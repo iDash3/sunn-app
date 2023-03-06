@@ -4,7 +4,7 @@ const AppleButton = () => {
   return (
     <a
       style={{ padding: "5px" }}
-      href="https://apps.apple.com/us/app/pou/id575154654"
+      href="https://apps.apple.com/app/sunn/id1630493103"
     >
       <svg
         height={70}
