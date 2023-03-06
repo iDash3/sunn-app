@@ -1,4 +1,7 @@
 import logo from "./sunn-logo.png";
+import logo2 from "./sunn-logo2.png";
+import ig from "./ig.png";
+import sunn_text from "./text_SUNN.png";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
@@ -19,17 +22,12 @@ function App() {
                 justifyContent: "center",
                 alignItems: "center",
                 flexDirection: "column",
-                backgroundColor: "#FFB74D",
-                height: "100vh",
+                backgroundColor: "#81d4fa",
+                height: "100%",
               }}
             >
-              <h1 style={{ color: "white" }}>SUNN</h1>
-              <img
-                src={logo}
-                height={150}
-                alt="Logo"
-                style={{ marginBottom: "30px" }}
-              ></img>
+              <img src={logo2} height={250} alt="Logo"></img>
+              <h1 style={{ color: "white", marginBottom: "6vh" }}>SUNN</h1>
               <div
                 style={{
                   display: "flex",
@@ -39,13 +37,45 @@ function App() {
                   padding: "20px",
                 }}
               >
+                <a
+                  style={{
+                    // color: "#E65100",
+                    fontSize: "1.2rem",
+                    textDecoration: "none",
+                    backgroundColor: "#BBDEFB",
+                    margin: "5px",
+                    padding: "10px 20px",
+                    marginBottom: "8vh",
+                    borderRadius: "10px",
+                  }}
+                  href="https://www.instagram.com/sunn__app/"
+                >
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <img
+                      src={ig}
+                      height={20}
+                      alt="Little sun"
+                      style={{ margin: "1vh 0", marginRight: "6px" }}
+                    ></img>
+                    <span>sunn__app</span>
+                  </div>
+                </a>
+
                 <AndroidButton />
                 <AppleButton />
                 <a
                   style={{
                     // color: "#E65100",
+                    fontSize: "1.2rem",
                     textDecoration: "none",
-                    backgroundColor: "#FF9800",
+                    backgroundColor: "#4FC3F7",
                     margin: "5px",
                     padding: "10px 20px",
                     marginTop: "12px",
@@ -57,6 +87,12 @@ function App() {
                 </a>
               </div>
               <Link to="/privacy">Privacy Policy</Link>
+              <img
+                src={logo}
+                height={60}
+                alt="Little sun"
+                style={{ margin: "1vh 0" }}
+              ></img>
             </div>
           }
         ></Route>
