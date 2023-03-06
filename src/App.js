@@ -1,7 +1,6 @@
 import logo from "./sunn-logo.png";
 import logo2 from "./sunn-logo2.png";
 import ig from "./ig.png";
-import sunn_text from "./text_SUNN.png";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
