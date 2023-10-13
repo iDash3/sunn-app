@@ -6,13 +6,13 @@ export default function PrivacyPolicy() {
       <h2 style={{ textAlign: "center" }}>PRIVACY POLICY</h2>
       <p>Effective date: 2022-04-01</p>
       <p>1. Introduction</p>
-      <p>Welcome to sunn.</p>
+      <p>Welcome to suun.</p>
       <p>
-        sunn (“us”, “we”, or “our”) operates the mobile application sunn as well
-        as sunn.app (hereinafter referred to as “Service”).
+        suun (“us”, “we”, or “our”) operates the mobile application suun as well
+        as suun.app (hereinafter referred to as “Service”).
       </p>
       <p>
-        Our Privacy Policy governs your visit to sunn or sunn.app, and explains
+        Our Privacy Policy governs your visit to suun or suun.app, and explains
         how we collect, safeguard and disclose information that results from
         your use of our Service.
       </p>
@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
         (“agreement”).
       </p>
       <p>2. Definitions</p>
-      <p>SERVICE means the sunn app operated by sunn.</p>
+      <p>SERVICE means the suun app operated by suun.</p>
       <p>
         PERSONAL DATA means data about a living individual who can be identified
         from those data (or from those and other information either in our
@@ -163,7 +163,7 @@ export default function PrivacyPolicy() {
         number, office location and other data.
       </p>
       <p>5. Use of Data</p>
-      <p>sunn uses the collected data for various purposes:</p>
+      <p>suun uses the collected data for various purposes:</p>
       <p>0.1. to provide and maintain our Service;</p>
       <p>0.2. to notify you about changes to our Service;</p>
       <p>
@@ -231,7 +231,7 @@ export default function PrivacyPolicy() {
         information represents your agreement to that transfer.
       </p>
       <p>
-        sunn will take all the steps reasonably necessary to ensure that your
+        suun will take all the steps reasonably necessary to ensure that your
         data is treated securely and in accordance with this Privacy Policy and
         no transfer of your Personal Data will take place to an organisation or
         a country unless there are adequate controls in place including the
@@ -289,7 +289,7 @@ export default function PrivacyPolicy() {
         {" "}
         If you wish to be informed what Personal Data we hold about you and if
         you want it to be removed from our systems, please email us at{" "}
-        support@sunn.app.
+        support@suun.app.
       </p>
       <p>
         In certain circumstances, you have the following data protection rights:
@@ -357,7 +357,7 @@ export default function PrivacyPolicy() {
       </p>
       <p>
         0.4. users are able to change their personal information by emailing us
-        at support@sunn.app.
+        at support@suun.app.
       </p>
       <p>Our Policy on “Do Not Track” Signals:</p>
       <p>
@@ -452,7 +452,7 @@ export default function PrivacyPolicy() {
       </p>
       <p>
         To exercise your California data protection rights described above,
-        please send your request(s) by email: support@sunn.app.
+        please send your request(s) by email: support@suun.app.
       </p>
       <p>
         Your data protection rights, described above, are covered by the CCPA,
@@ -530,7 +530,7 @@ export default function PrivacyPolicy() {
       <p>20. Contact Us</p>
       <p>
         If you have any questions about this Privacy Policy, please contact us
-        by email: privacy@sunn.app.
+        by email: privacy@suun.app.
       </p>
     </div>
   );
