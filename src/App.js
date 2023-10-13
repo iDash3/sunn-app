@@ -26,7 +26,7 @@ function App() {
               }}
             >
               <img src={logo2} height={250} alt="Logo"></img>
-              <h1 style={{ color: "white", marginBottom: "6vh" }}>SUNN</h1>
+              <h1 style={{ color: "white", marginBottom: "6vh" }}>suun</h1>
               <div
                 style={{
                   display: "flex",
@@ -47,7 +47,7 @@ function App() {
                     marginBottom: "8vh",
                     borderRadius: "10px",
                   }}
-                  href="https://www.instagram.com/sunn__app/"
+                  href="https://www.instagram.com/suun_app/"
                 >
                   <div
                     style={{
@@ -63,7 +63,7 @@ function App() {
                       alt="Little sun"
                       style={{ margin: "1vh 0", marginRight: "6px" }}
                     ></img>
-                    <span>sunn__app</span>
+                    <span>suun_app</span>
                   </div>
                 </a>
 
