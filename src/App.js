@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PrivacyPolicy from "./PrivacyPolicy";
 import AndroidButton from "./AndroidButton";
 import AppleButton from "./AppleButton";
+import DeleteScreen from "./components/DeleteScreen";
 
 function App() {
   return (
@@ -95,6 +96,7 @@ function App() {
             </div>
           }
         ></Route>
+        <Route path="/delete" element={<DeleteScreen />}></Route>
         <Route path="*" element={<PrivacyPolicy />}></Route>
       </Routes>
     </Router>
